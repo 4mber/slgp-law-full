@@ -4645,6 +4645,10 @@ input[type="button"].btn-block {
   max-height: 220px;
 }
 
+.media-card-img-top {
+  height: 150px;
+}
+
 .card-columns .card {
   margin-bottom: 0.75rem;
 }
