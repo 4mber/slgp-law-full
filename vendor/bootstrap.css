@@ -625,8 +625,6 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
 }
 
 .no-gutters {
@@ -1809,7 +1807,7 @@ pre code {
     text-align: center;
   }
   .navbar-nav {
-    height: 225px !important;
+    height: 300px !important;
   }
 
 }
@@ -4054,7 +4052,6 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  height: 60px;
 }
 
 .navbar-nav .nav-link {
@@ -4151,15 +4148,18 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 920px) {
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
+  .col-lg-4 {
+    padding-bottom: 90px;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 920px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
