@@ -10,7 +10,7 @@
  .tag {
      letter-spacing: 1.4px;
      font-weight: 100;
-     margin-top: 35px;
+     margin-top: 13px;
 }
  .contact-tag {
      letter-spacing: 1px;
@@ -38,8 +38,16 @@
      margin-bottom: 50px;
 }
  #main-logo {
-     max-width: 250px;
+     max-width: 325px;
 }
+.card-image {
+    overflow: hidden;
+    position: relative;
+}
+.card-image img {
+    object-fit: contain;
+}
+
  #nav-logo {
      width: 203px;
      height: 80px;
@@ -50,6 +58,7 @@
      -webkit-transition: background 200ms linear;
      -moz-transition: background 200ms linear;
      -o-transition: background 200ms linear;
+}
 }
  #nav-logo.full-logo {
      background-image: url(resources/SLGP-brandmark.png);
@@ -125,4 +134,8 @@
          margin-top: 2.5rem;
     }
 }
- 
+ @media (max-width: 380px) {
+     #main-logo {
+         max-width: 250px;
+    }
+}
