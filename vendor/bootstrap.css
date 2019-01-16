@@ -453,7 +453,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgb(129, 206, 234);
 }
 
 small,
@@ -6316,7 +6316,12 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
+  width: 165px;
+  height: 165px;
   border-radius: 50% !important;
+  object-fit: contain;
+  background-color: #edf9fd;
+  border: 2px solid rgba(0, 123, 255, 0.11);
 }
 
 .rounded-0 {
@@ -8798,6 +8803,10 @@ button.bg-dark:focus {
   }
 }
 
+.logo-row {
+  padding: 10px 95px 85px 95px;
+}
+
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -8861,6 +8870,36 @@ button.bg-dark:focus {
   }
   .text-lg-center {
     text-align: center !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .rounded-circle {
+    width: 135px;
+    height: 135px;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-lg-2 {
+    width: 20%;
+  }
+  .rounded-circle {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media (max-width: 813px) {
+  .logo-row {
+    padding: 0;
+  }
+  .col-lg-2 {
+    width: 20%;
+  }
+  .rounded-circle {
+    width: 50px;
+    height: 50px;
   }
 }
 
