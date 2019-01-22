@@ -6321,7 +6321,7 @@ button.bg-dark:focus {
   border-radius: 50% !important;
   object-fit: contain;
   background-color: #edf9fd;
-  border: 2px solid rgba(0, 123, 255, 0.11);
+  border: 2px solid rgb(142, 205, 232);
 }
 
 .rounded-0 {
