@@ -6436,6 +6436,73 @@ button.bg-dark:focus {
   }
 }
 
+.foot-contain {
+  display: inline-block;
+  width: 33%;
+}
+#foot-mid {
+  text-align: center;
+}
+#foot-right {
+  vertical-align: bottom;
+}
+
+@media (max-width: 992px) {
+  .footer-logo-distinct {
+    width: 75px;
+  }
+  .footer-logo {
+    width: 190px;
+  }
+  .foot-contain {
+    width: 32.7%;
+  }
+}
+
+@media (max-width: 750px) {
+  #foot-mid {
+    text-align: right;
+  }
+}
+
+@media (max-width: 475px) {
+  .foot-contain {
+    width: 32.5%;
+  }
+  .footer-logo {
+    width: 170px;
+  }
+}
+
+@media (max-width: 410px) {
+  .footer-logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 376px) {
+  .footer-logo {
+    width: 140px;
+  }
+  .foot-contain {
+    width: 32.3%;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer-logo {
+    width: 120px;
+  }
+  .footer-logo-distinct {
+    width: 65px;
+  }
+  #foot-right {
+    font-size: .75rem;
+  }
+}
+
+
+
 @media (min-width: 992px) {
   .d-lg-none {
     display: none !important;
