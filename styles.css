@@ -50,27 +50,39 @@
 .card-image img {
     object-fit: contain;
 }
-
- #nav-logo {
-     width: 203px;
-     height: 80px;
-     background-image: url(resources/SLGP-logomark.png);
-     background-size: contain;
-     background-repeat: no-repeat;
-     transition: background 200ms linear;
-     -webkit-transition: background 200ms linear;
-     -moz-transition: background 200ms linear;
-     -o-transition: background 200ms linear;
+#top-news, #ft-media {
+    padding: 0 100px 0 100px;
 }
+#top-news {
+    padding-bottom: 75px;
 }
- #nav-logo.full-logo {
+#tv-interviews {
+    padding-top: 75px;
+}
+#nav-logo {
+    width: 203px;
+    height: 80px;
+    background-image: url(resources/SLGP-logomark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: background 200ms linear;
+    -webkit-transition: background 200ms linear;
+    -moz-transition: background 200ms linear;
+    -o-transition: background 200ms linear;
+}
+#nav-logo.full-logo {
      background-image: url(resources/SLGP-brandmark.png);
      margin-bottom: -7.5px;
      margin-top: 7.5px;
 }
- #interviews {
+#interviews {
      margin: 100px 0 200px 0;
 }
+.top-logo {
+    background-color: #fff;
+}
+
+
 /* MARKETING CONTENT -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
  .marketing .col-lg-4 .col-lg-3 {
