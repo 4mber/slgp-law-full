@@ -6440,11 +6440,12 @@ button.bg-dark:focus {
   display: inline-block;
   width: 33%;
 }
-#foot-mid {
-  text-align: center;
+#foot-left, #foot-mid, #foot-right {
+  vertical-align: top;
 }
-#foot-right {
-  vertical-align: bottom;
+#last-foot {
+  bottom: 0;
+  padding: 100px 100px 50px 100px;
 }
 
 @media (max-width: 992px) {

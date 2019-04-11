@@ -1,7 +1,6 @@
 /* GLOBAL STYLES -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
  body {
-     padding-bottom: 3rem;
      color: #5a5a5a;
 }
 .blue {
@@ -40,6 +39,22 @@
      max-width: 410px;
      margin-bottom: 50px;
 }
+#news {
+    width: 100%;
+    padding: 120px 120px;
+    margin: 150px 0 100px 0;
+    color: #b2eaff;
+    background: linear-gradient(141deg, #02afdc, #a4eeff);
+}
+.news-link {
+    color: #d5f4ff;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+}
+.news-link:hover {
+    color: #ffffff;
+} 
  #main-logo {
      max-width: 325px;
 }
