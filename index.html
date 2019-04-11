@@ -24,8 +24,37 @@
 
       gtag('config', 'UA-125642589-1');
     </script>
+
   </head>
   <body>
+    <!-- Load-Modal -->
+    <div class="modal fade" id="loadModal" role="dialog">
+      <div class="modal-dialog">
+      
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="resources/cannacon.svg" id="canna-logo"><br><br>
+            <h5 class="green">Cox Convention Center, Oklahoma City /<span class="orange">/ April 18 & 19</span></h5><br><br><br><br>
+            <h1><span style="font-weight: 300;">Come see me at</span><span class="green"> Booth #406</span>!</h1><br><br><br><br>
+            <h5><span style="font-weight: 300;">Or at my talk on...</h5>
+            <h3>Oklahoma's Regulatory Landscape<br>- Past, Present, and Future</h3>
+            <h6 class="orange"><span class="green"><br>April 18, 2019 // 3:50 pm</span><br>Business / Legal Path in Room 2</h6><br>
+            <p>I will discuss Oklahoma’s medical marijuana rules and regulations–where we have been, where we are now, and where we are headed in the future. Discussion will also include the Unity Bill, OMMA’s evolving structure, and what to expect next.<br><br>
+
+            My objective is to help attendees comply with Oklahoma’s evolving medical marijuana rules and regulations, and alert them to expected changes so they can remain in compliance and plan for the future. Q & A to follow.</p><br><br><br>
+            <a class="btn btn-success btn-lg" href="https://cannacon.org/seminars/oklahomas-regulatory-landscape-past-present-and-future/" target="_blank" role="button">More Info &raquo;</a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
 
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-fixed-top">
@@ -105,8 +134,8 @@
 
       <div class="row featurette" id="news">
         <div class="col-md-12 text-center"><br>
-          <h1 class="white">Sarah Lee <span style="font-weight: 300;">has been named</span></h1>
-          <h3><span style="font-weight: 300;">one of the</span>
+          <h1 class="white" id="news-title">Sarah Lee <span style="font-weight: 300;">has been named</span></h1>
+          <h3 id="news-content"><span style="font-weight: 300;">one of the</span>
             <a href="" data-toggle="modal" data-target="#modal5" class="news-link">National Law Journal’s 2019 Cannabis Trailblazers</a>
             <br><span style="font-weight: 300;">AND one of the</span> 
             <a href="" data-toggle="modal" data-target="#modal6" class="news-link">American Lawyer Magazine’s 2019 Women Leaders in the Law</a>!</h3><br>
@@ -414,15 +443,15 @@
         <div id="foot-left" class="foot-contain">
           <img src="resources/AVrate.png" class="footer-logo">
         </div>
-        <div id="foot-mid" class="foot-contain text-center">
-          <img src="resources/distinct.png" class="footer-logo-distinct" width="110">
+        <div class="foot-contain" id="foot-mid">
+          <img src="resources/distinct.png" class="footer-logo-distinct">
         </div>
         <div id="foot-right" class="foot-contain text-right">
-          <img src="resources/tb-logo.png" class="footer-logo-distinct" width="220">
+          <img src="resources/tb-logo.png" class="footer-logo-trail">
         </div>
         <br><br><br><br><br>
         <div>
-          <span>&copy; 2018 Sarah Lee Gossett Parrish</span>
+          <span id="copyright">&copy; 2018 Sarah Lee Gossett Parrish</span>
           <a href="#" class="float-right">Back to top</a>
         </div>
       </footer>
@@ -437,5 +466,13 @@
     <script src="vendor/popper.min.js"></script>
     <script src="vendor/bootstrap.min.js"></script>
     <script src="script.js"></script>
+
+    <!-- On-Load Modal Opener -->
+    <script type="text/javascript">
+        $(window).ready(function()
+        {
+            $('#loadModal').modal('show');
+        });
+    </script>
   </body>
 </html>

@@ -6435,7 +6435,6 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
-
 .foot-contain {
   display: inline-block;
   width: 33%;
@@ -6443,41 +6442,125 @@ button.bg-dark:focus {
 #foot-left, #foot-mid, #foot-right {
   vertical-align: top;
 }
+#foot-mid {
+  text-align: center;
+}
 #last-foot {
   bottom: 0;
   padding: 100px 100px 50px 100px;
 }
-
-@media (max-width: 992px) {
-  .footer-logo-distinct {
-    width: 75px;
-  }
-  .footer-logo {
-    width: 190px;
-  }
+.footer-logo-distinct {
+  width: 110px;
+}
+.footer-logo-trail {
+  width: 220px;
+}
+#canna-logo {
+  width: 485px;
+}
+@media (max-width: 1040px) {
   .foot-contain {
     width: 32.7%;
   }
 }
-
-@media (max-width: 750px) {
-  #foot-mid {
-    text-align: right;
+@media (max-width: 992px) {
+  .footer-logo-distinct {
+    width: 95px;
+  }
+  .footer-logo {
+    width: 220px;
+  }
+  .footer-logo-trail {
+    width: 200px;
+  }
+}
+@media (max-width: 882px) {
+  .footer-logo-distinct {
+    width: 75px;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+  .footer-logo-trail {
+    width: 180px;
+  }
+  #news {
+    padding: 80px;
+  }
+  #news-content {
+    font-size: larger;
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 750px) {
   .foot-contain {
-    width: 32.5%;
+    width: 32%;
   }
+}
+
+@media (max-width: 700px) {
   .footer-logo {
-    width: 170px;
+    width: 160px;
+  }
+  .footer-logo-trail {
+    width: 140px;
+  }
+  .footer-logo-distinct {
+    width: 60px;
+  }
+}
+
+@media (max-width: 590px) {
+  .footer-logo {
+    width: 140px;
+  }
+  .footer-logo-trail {
+    width: 120px;
+  }
+  .footer-logo-distinct {
+    width: 50px;
+  }
+}
+
+@media (max-width: 540px) {
+  .foot-contain {
+    width: 100%;
+    display: grid;
+    padding-top: 15px;
+    text-align: center;
+  }
+  .footer-logo-distinct {
+    width: 30%;
+  }
+  .footer-logo, .footer-logo-trail {
+    width: 50%;
+  }
+  .footer-logo-distinct, .footer-logo, .footer-logo-trail {
+    margin: auto;
+  }
+  #canna-logo {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer-logo-distinct {
+    width: 50%;
+  }
+  .footer-logo, .footer-logo-trail {
+    width: 80%;
+  }
+  #copyright {
+    display: block;
   }
 }
 
 @media (max-width: 410px) {
   .footer-logo {
     width: 150px;
+  }
+  #news-content {
+    font-size: medium;
   }
 }
 
