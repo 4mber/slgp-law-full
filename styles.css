@@ -105,8 +105,9 @@
 .top-logo {
     background-color: #fff;
 }
-
-
+#blog-main {
+    padding: 150px 0 150px 0;
+}
 
 /* MARKETING CONTENT -------------------------------------------------- */
 /* Center align the text within the three columns below the carousel */
