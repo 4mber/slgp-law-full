@@ -15,32 +15,35 @@
 .orange {
     color: #f29631;
 }
- .tag {
+.tag {
      letter-spacing: 1.4px;
      font-weight: 100;
      margin-top: 13px;
 }
- .contact-tag {
+.contact-tag {
      letter-spacing: 1px;
      color: #a09f9f;
      font-size: 1.1rem;
 }
- #down {
+#down {
      max-width: 50px;
      opacity: 0.8;
      padding-top: 185px;
 }
- .navbar-fixed-top {
+.address {
+    padding-bottom: 150px;
+}
+.navbar-fixed-top {
      background: transparent;
      transition: background 200ms linear;
      -webkit-transition: background 200ms linear;
      -moz-transition: background 200ms linear;
      -o-transition: background 200ms linear;
 }
- .navbar-fixed-top.scrolled {
+.navbar-fixed-top.scrolled {
      background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
- #contact {
+#contact {
      margin: auto;
      max-width: 410px;
      margin-bottom: 50px;
