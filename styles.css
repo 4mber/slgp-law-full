@@ -55,6 +55,24 @@
     color: #b2eaff;
     background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
+#staff {
+    padding: 150px 0 150px 0;
+}
+#founder {
+    padding-bottom: 200px;
+}
+.staff-circle {
+    height: 300px;
+    width: 300px;
+}
+#staff-right {
+    border-left: 1px solid #02afdc;
+    padding-left: 75px;
+    height: 80%;
+}
+#staff-left {
+    padding-right: 75px;
+}
 .news-link {
     color: #d5f4ff;
     -webkit-transition: 1s;
