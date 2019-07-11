@@ -55,15 +55,19 @@
     color: #b2eaff;
     background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
-#staff {
-    padding: 150px 0 150px 0;
+#staff-head {
+    padding: 100px 0 70px 0;
 }
-#founder {
-    padding-bottom: 200px;
+#staff {
+    padding-bottom: 150px;
 }
 .staff-circle {
     height: 300px;
     width: 300px;
+}
+#staff-end {
+    width: 60%;
+    margin: auto;
 }
 #staff-right {
     border-left: 1px solid #02afdc;
