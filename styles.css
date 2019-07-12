@@ -20,18 +20,18 @@
      font-weight: 100;
      margin-top: 13px;
 }
-.contact-tag {
-     letter-spacing: 1px;
-     color: #a09f9f;
-     font-size: 1.1rem;
+.contact-tag, .address {
+     letter-spacing: 0.75px;
+     color: rgba(255, 255, 255, 0.73);
+     font-size: 1rem;
 }
 #down {
      max-width: 50px;
      opacity: 0.8;
      padding-top: 185px;
 }
-.address {
-    padding-bottom: 150px;
+#address {
+    width: 100%;
 }
 .navbar-fixed-top {
      background: transparent;
@@ -43,12 +43,16 @@
 .navbar-fixed-top.scrolled {
      background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
-#contact {
-     margin: auto;
-     max-width: 410px;
-     margin-bottom: 50px;
+#contact, #addresses {
+    display: inline-block;
+    padding: 0;
 }
-#news {
+#addresses {
+    text-align: right;
+    float: right;
+}
+
+#news, #publications {
     width: 100%;
     padding: 120px 120px;
     margin: 150px 0 100px 0;
@@ -86,12 +90,21 @@
 .news-link:hover {
     color: #ffffff;
 } 
- #main-logo {
+.published-content {
+    font-size: 1.2rem;
+}
+#bar-board {
+    padding: 80px 0 100px 0;
+}
+#main-logo {
      max-width: 325px;
 }
 .card-image {
     overflow: hidden;
     position: relative;
+}
+.to-top, #copyright {
+    color: #b2eaff;
 }
 .card-image img {
     object-fit: contain;
@@ -163,7 +176,7 @@
     /* Space out the Bootstrap <hr> more */
 }
  .about-featurette {
-     margin-top: 150px;
+     margin: 150px 0 150px 0;
 }
  .featurette-image, .featurette-image-about {
      box-shadow: 0 1px 3px 0 #888888;
@@ -203,20 +216,32 @@
     }
 }
 @media (max-width: 882px) {
-  #news {
+  #news, #publications {
     padding: 80px;
   }
+  .contact-tag, .address {
+    font-size: 0.8rem;
+  }
+
 }
+@media (max-width: 725px) {
+    #contact, #addresses {
+        display: block;
+        text-align: center;
+        float: none;
+        max-width: 100%;
+    }
+}    
 @media (max-width: 450px) {
-  #news {
+  #news, #publications {
     padding: 20px;
   }
-  #news-title {
+  .news-title {
     font-size: 1.75rem;  
   }
 }
 @media (max-width: 410px) {
-  #news-title {
+  .news-title {
     font-size: 1.25rem;  
   }
 }

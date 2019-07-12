@@ -46,19 +46,16 @@
                         <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contact-scroll">Contact</a>
+                      <a class="nav-link" href="javascript: document.body.scrollIntoView(false);">Contact</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
+                      <a class="nav-link" href="staff.html">Who We Are</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link" href="media.html">Media</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#articles-scroll">Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#bar-scroll">Bar Memberships, Community Service, & Awards</a>
                     </li>
                 </ul>
             </div>
@@ -195,21 +192,55 @@
 
 
         <!-- FOOTER -->
-        <footer class="bg-light" id="last-foot">
-            <div id="foot-left" class="foot-contain">
-              <img src="resources/AVrate.png" class="footer-logo">
-            </div>
-            <div class="foot-contain" id="foot-mid">
-              <img src="resources/distinct.png" class="footer-logo-distinct">
-            </div>
-            <div id="foot-right" class="foot-contain text-right">
-              <img src="resources/tb-logo.png" class="footer-logo-trail">
-            </div>
-            <br><br><br><br><br>
+        <footer class="nav-bg" id="last-foot">
+          <div id="contact" class="col-sm-6">
             <div>
-              <span id="copyright">&copy; 2018 Sarah Lee Gossett Parrish</span>
-              <a href="#" class="float-right">Back to top</a>
+              <h4 class="blue">Contact</h4>
+              <p class=""><span class="contact-tag">slgparrish@slgparrishlaw.com | 1.405.815.3434</span></p>
             </div>
+            <div>
+              <div id="contact">
+                <form action="https://formspree.io/slgparrish@slgparrishlaw.com"
+                      method="POST">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="_replyto" placeholder="Email">
+                    <input type="tel" name="phone" placeholder="Phone">
+                    <textarea name="comment" placeholder="Comments"></textarea>
+                    <input type="submit" value="Send" class="btn">
+                </form>
+              </div><br><br>
+            </div>
+          </div>
+          <div id="addresses" class="col-sm-6">
+            <div class="">
+              <h4 class="blue">Physical Address</h4>
+              <p class="address">Sarah Lee Gossett Parrish PLLC<br>
+              The Paseo Arts District<br>
+              526 NW 30th Street<br>
+              Oklahoma City, OK 73118</p>
+            </div>
+            <div class="">
+              <br><br>
+              <h4 class="blue">Mailing Address</h4>
+              <p class="address">Sarah Lee Gossett Parrish PLLC<br>
+              6608 N. Western Avenue, #338<br>
+              Nichols Hills, OK 73116</p>
+            </div>
+          </div><br><br>
+          <div id="foot-left" class="foot-contain">
+            <img src="resources/AVrate.png" class="footer-logo">
+          </div>
+          <div class="foot-contain" id="foot-mid">
+            <img src="resources/distinct.png" class="footer-logo-distinct">
+          </div>
+          <div id="foot-right" class="foot-contain text-right">
+            <img src="resources/tb-logo.png" class="footer-logo-trail">
+          </div>
+          <br><br>
+          <div>
+            <span id="copyright">&copy; 2018 Sarah Lee Gossett Parrish</span>
+            <a href="#" class="float-right to-top">Back to top</a>
+          </div>
         </footer>
     </main>
 

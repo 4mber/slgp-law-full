@@ -266,27 +266,40 @@ input {
 }
 
 input[type="text"], input[type="email"], input[type="tel"], textarea {
+  color: #fff;
   display: block;
   margin: auto;
   margin-bottom: 5px;
   min-width: 280px;
   max-width: 410px;
-  border: 2px solid #45b5ea;
+  border: 2px solid #02afdcbf;
   border-radius: 3px;
-  background-color: #f9fdff;
-  padding: 10px;
+  background-color: #02afdcbf;
+  padding: 5px;
 }
 
 input[type="submit"] {
   color: #fff;
   background-color: #53bfe5;
   border-color: #53bfe5;
-  width: 150px;
-  margin-top: 20px;
+  width: 75px;
 }
 input[type="submit"]:hover {
   background-color: #02afdc;
   border-color: #02afdc;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
 }
 
 button,
@@ -4939,7 +4952,10 @@ input[type="button"].btn-block {
   padding: 2rem 1rem;
   margin-bottom: 7rem;
 /*  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
-  background: linear-gradient(141deg, #02afdc, #a4eeff);
+  background-image: url("../resources/bg-law.png");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
 }
 
 .jumbotron-about {
@@ -6191,6 +6207,10 @@ button.bg-danger:focus {
   background-color: #f8fbff !important;
 }
 
+.nav-bg {
+  background-color: #084c67 !important;
+}
+
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
@@ -6439,9 +6459,6 @@ button.bg-dark:focus {
   display: inline-block;
   width: 33%;
 }
-#foot-left, #foot-mid, #foot-right {
-  vertical-align: top;
-}
 #foot-mid {
   text-align: center;
 }
@@ -6449,11 +6466,14 @@ button.bg-dark:focus {
   bottom: 0;
   padding: 100px 100px 50px 100px;
 }
+.footer-logo {
+  width: 205px;
+}
 .footer-logo-distinct {
-  width: 110px;
+  width: 85px;
 }
 .footer-logo-trail {
-  width: 220px;
+  width: 180px;
 }
 #canna-logo {
   width: 485px;
@@ -6487,7 +6507,7 @@ button.bg-dark:focus {
   #news {
     padding: 80px;
   }
-  #news-content {
+  .news-content {
     font-size: larger;
   }
 }
@@ -6559,7 +6579,7 @@ button.bg-dark:focus {
   .footer-logo {
     width: 150px;
   }
-  #news-content {
+  .news-content {
     font-size: medium;
   }
 }
