@@ -59,18 +59,18 @@
     color: #b2eaff;
     background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
-#staff-head {
+.staff-head {
     padding: 100px 0 70px 0;
 }
-#staff {
+.bio-pad, #staff {
     padding-bottom: 150px;
 }
 .staff-circle {
     height: 300px;
     width: 300px;
 }
-#staff-end {
-    width: 60%;
+.staff-end {
+    width: 70%;
     margin: auto;
 }
 #staff-right {
