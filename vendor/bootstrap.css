@@ -114,6 +114,7 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+  padding-left: 0;
 }
 
 ol ol,
@@ -661,7 +662,6 @@ pre code {
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
-  padding-left: 15px;
 }
 
 .col {
@@ -9187,7 +9187,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #b8bcc1 !important;
 }
 
 .text-black-50 {
