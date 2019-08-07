@@ -114,7 +114,6 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
-  padding-left: 0;
 }
 
 ol ol,
@@ -662,6 +661,7 @@ pre code {
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
+  padding-left: 15px;
 }
 
 .col {
@@ -4950,7 +4950,7 @@ input[type="button"].btn-block {
 
 .jumbotron {
   padding: 2rem 1rem;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 /*  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
   background-image: url("../resources/bg-law.png");
   background-size: cover;
@@ -4966,7 +4966,7 @@ input[type="button"].btn-block {
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 19rem 2rem 1rem 2rem;
+    padding: 13rem 2rem 1rem 2rem;
   }
 }
 
@@ -9187,7 +9187,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #b8bcc1 !important;
+  color: #6c757d !important;
 }
 
 .text-black-50 {

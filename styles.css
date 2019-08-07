@@ -28,10 +28,22 @@
 #down {
      max-width: 50px;
      opacity: 0.8;
-     padding-top: 185px;
+     padding-top: 135px;
 }
 #address {
     width: 100%;
+}
+#award-img-1 {
+    padding: 40px 40px 20px 40px;
+}
+#award-img-2 {
+    padding: 0 40px 20px 40px;
+}
+#award-left {
+    margin-right: 15px;
+}
+#award-right {
+    margin-left: 15px;
 }
 .navbar-fixed-top {
      background: transparent;
@@ -51,8 +63,10 @@
     text-align: right;
     float: right;
 }
-
-#news, #publications {
+#news {
+    padding: 0 0 150px 0;
+}
+#publications {
     width: 100%;
     padding: 120px 120px;
     margin: 150px 0 100px 0;
@@ -82,13 +96,13 @@
     padding-right: 75px;
 }
 .news-link {
-    color: #d5f4ff;
+    color: #6ec8eb;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;
 }
 .news-link:hover {
-    color: #ffffff;
+    color: #007bff;
 } 
 .published-content {
     font-size: 1.2rem;
