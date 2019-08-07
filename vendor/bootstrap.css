@@ -9072,6 +9072,11 @@ button.bg-dark:focus {
     width: 50px;
     height: 50px;
   }
+  input[type="text"], input[type="email"], input[type="tel"], textarea {
+    max-width: 190px;
+    min-width: 190px;
+
+  }
 }
 
 @media (min-width: 1200px) {
