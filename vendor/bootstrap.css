@@ -4951,7 +4951,6 @@ input[type="button"].btn-block {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 5rem;
-/*  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
   background-image: url("../resources/bg-law.png");
   background-size: cover;
   background-position: bottom;
@@ -4959,8 +4958,7 @@ input[type="button"].btn-block {
 }
 
 .jumbotron-about {
-  padding: 9rem 0 12rem 0;
-/*  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);*/
+  padding: 7rem 0 7rem 0;
   background: linear-gradient(141deg, #02afdc, #a4eeff);
 }
 
@@ -5513,7 +5511,7 @@ button.close {
   align-items: flex-start;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.2rem;
   border-bottom: 1px solid #e9ecef;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
@@ -5533,7 +5531,7 @@ button.close {
   position: relative;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 .modal-footer {
@@ -5543,7 +5541,7 @@ button.close {
   align-items: center;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  padding: 1rem;
+  padding: 0.2rem;
   border-top: 1px solid #e9ecef;
 }
 
