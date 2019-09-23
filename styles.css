@@ -343,4 +343,33 @@
   #popup-news {
     padding: 0 0 20px 0;
   }
+  #heading-contain, .contain-pad-small {
+    padding-top: 80px;
+  }
+  #about-heading {
+    font-size: 2.88rem;
+  }
+  .about-featurette {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .staff-circle {
+    height: 200px;
+    width: 200px;
+  }
+  .staff-head {
+    padding-top: 0;
+  }
+  .staff-end {
+    width: 100%;
+  }
+  .bio-pad, #staff {
+    padding-bottom: 45px;
+  }
+  .event-heading {
+    padding: 0;
+  }
+  #top-news, #ft-media {
+    padding: 0;
+  }
 }
