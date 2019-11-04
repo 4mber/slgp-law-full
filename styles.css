@@ -257,10 +257,10 @@
     }
 }
 #cannacon-flier {
-  width: 66%;
+  width: 49%;
 }
-#promo-code {
-  padding-bottom: 25px;
+#guide-flier {
+  width: 46.7%;
 }
 @media (max-width: 575px) {
   #award-left {
@@ -275,6 +275,10 @@
   }
   #cannacon-flier {
     width: 100%;
+  }
+  #guide-flier {
+    width: 100%;
+    padding-top: 10px;
   }
 }    
 @media (max-width: 450px) {
