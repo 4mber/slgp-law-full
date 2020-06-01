@@ -55,6 +55,10 @@
 #award-right {
     margin-left: 15px;
 }
+.load-modal-logo {
+  width: 50%;
+  margin: auto;
+}
 .navbar-fixed-top {
      background: transparent;
      transition: background 200ms linear;
