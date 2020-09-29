@@ -5477,7 +5477,8 @@ button.close {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -5531,6 +5532,10 @@ button.close {
   position: relative;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+/*  padding: 0 6rem 0 6rem;*/
+}
+
+#modal-description {
   padding: 0 6rem 0 6rem;
 }
 
